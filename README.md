@@ -3,6 +3,12 @@
 ### Project Overview
 The purpose of this analysis was to use existing data about organizations that have been funded by Alphabet Soup. Specifically, the use of a sequential neural network was employed to determine how well the features of the data set could be used to create a binary success classifier for future applicants, predicting whether future investments would likely succeed or not.
 
+### Technologies
+* Python (pandas)
+* sklearn (test-train-split, StandardScaler, OneHotEncoder)
+* tensorflow
+    * keras
+
 ### Approach and Results
 * Data Pre-processing:
   * The target variable in this analysis was the column 'IS_SUCCESSFUL' which is the ultimate goal of the model to be able to predict.
